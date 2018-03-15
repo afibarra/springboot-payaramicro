@@ -1,0 +1,6 @@
+version: '2'
+services:
+  payaraperson:
+    image: payara/person
+    ports:
+      - 8080:8080
